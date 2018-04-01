@@ -29,7 +29,6 @@ class Cache:
         cache = Cache("/home/persistent/")
         cache.fetch("train", TrainDatabase())
     """
-
     def __init__(self, cache_path):
         self.cache_path = cache_path
 
