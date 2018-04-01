@@ -1,12 +1,13 @@
 # python_design_utils
-some smart python classes
+some useful python patterns
 
 ## Cache Pattern
-[cache.py](https://github.com/Fangyh09/python_design_utils/blob/master/cache.py)
 
 At 1st call, it will store the object persistently.
 
 From 2nd call, it will return the stored object.
+
+[cache.py](https://github.com/Fangyh09/python_design_utils/blob/master/cache.py)
 
 Example:
 ```python
@@ -20,13 +21,14 @@ cache.fetch("train", TrainDatabase())
 
 
 ## Parameter Pattern
-[parameter.py](https://github.com/Fangyh09/python_design_utils/blob/master/parameter.py)
 
 Add several parameters without using dict.
 
 Dict has to add multiple `"`s.
 
-Example:
+[parameter.py](https://github.com/Fangyh09/python_design_utils/blob/master/parameter.py)
+
+Example: 
 ```python
 para_list = ParameterList()
 para_list.add_item(foo=1, bar=2)
