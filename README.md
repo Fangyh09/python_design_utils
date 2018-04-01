@@ -5,6 +5,7 @@ some smart python classes
 `cache.py`[cache.py](https://github.com/Fangyh09/python_design_utils/blob/master/cache.py)
 
 At 1st call, it will store the object persistently.
+
 From 2nd call, it will return the stored object.
 
 Example:
