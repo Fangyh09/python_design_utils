@@ -2,9 +2,10 @@
 some smart python classes
 
 ## Cache Pattern
-`cache.py`[cache.py](https://github.com/Fangyh09/python_design_utils/blob/master/cache.py)
+[cache.py](https://github.com/Fangyh09/python_design_utils/blob/master/cache.py)
 
 At 1st call, it will store the object persistently.
+
 From 2nd call, it will return the stored object.
 
 Example:
@@ -19,8 +20,10 @@ cache.fetch("train", TrainDatabase())
 
 
 ## Parameter Pattern
-`parameter.py`[parameter.py](https://github.com/Fangyh09/python_design_utils/blob/master/parameter.py)
+[parameter.py](https://github.com/Fangyh09/python_design_utils/blob/master/parameter.py)
+
 Add several parameters without using dict.
+
 Dict has to add multiple `"`s.
 
 Example:
