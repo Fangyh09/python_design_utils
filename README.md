@@ -1,4 +1,4 @@
-# python_design_utils
+# python_snippets
 some useful python patterns
 
 ## Cache Pattern  
